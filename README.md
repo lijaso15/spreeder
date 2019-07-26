@@ -16,13 +16,8 @@ Spreeding allows the reader to blaze through a reading with two key advantages.
 ## Features/Customization
 
 1. Words per minute speed (WPM)
-
 2. Number of lines
-
 3. Number of words
-
 4. Font size
-
 5. Scroll Mouse Wheel To skip/return from your current position
-
 6. Press Arrow Key to skip/return from your current position
