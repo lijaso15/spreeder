@@ -17,7 +17,7 @@ class Navbar extends React.Component<NavbarProps> {
         <nav className="navbar">
           <div className="navbar-brand">
             <a className="navbar-item" data-tip="© Jason Li 2019">
-              <img src={process.env.PUBLIC_URL + "icon.png"} alt="Logo" />
+              <img src={process.env.PUBLIC_URL + "/favicon.ico"} alt="Logo" />
             </a>
             <ReactTooltip place="top" type="dark" effect="float" />
           </div>

@@ -44,7 +44,6 @@ class PlayPause extends React.Component<PlayPauseProps> {
 
   tick() {
     const { textArray, position, increment } = this.props;
-    console.log(position, textArray.length);
     if (position < textArray.length - 1) {
       increment();
     } else {
@@ -94,10 +93,6 @@ class PlayPause extends React.Component<PlayPauseProps> {
 }
 
 const mapStateToProps = state => {
-  console.log(
-    stringToWordArray(state.text),
-    partition(state.lines * state.words, stringToWordArray(state.text))
-  );
   return {
     textArray: state.text
       ? partition(state.lines * state.words, stringToWordArray(state.text)).map(

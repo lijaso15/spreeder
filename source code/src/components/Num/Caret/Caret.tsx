@@ -22,7 +22,6 @@ class Caret extends React.Component<CaretProps> {
           }}
           onClick={() => {
             if (handleClick) {
-              console.log(this);
               handleClick();
             }
           }}

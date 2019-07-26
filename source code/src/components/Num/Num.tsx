@@ -42,8 +42,6 @@ class Num extends React.Component<NumProps, NumState> {
           if (tag === "svg" || tag === "path" || tag === "a") {
             //left
             handleDecrement();
-          } else {
-            console.log(e.target);
           }
         }}
       >
