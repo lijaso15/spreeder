@@ -1,6 +1,11 @@
 # spreeder
 Interface to allow for extremely fast reading of text
 
+
+![alt text][demo]
+
+[demo]: https://raw.githubusercontent.com/lijaso15/spreeder/master/spreeder_demo.gif 
+
 ## Overview
 Spreeding allows the reader to blaze through a reading with two key advantages. 
 1. Having text centered will reduce the fatigue on your eyes from moving back and forth and refocusing
